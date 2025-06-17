@@ -3,7 +3,7 @@
 // https://github.com/jhuckaby/Cronicle
 
 // To install, issue this command as root:
-// curl -s "https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js" | node
+// curl -s "https://raw.githubusercontent.com/tbmreza/Cronicle/master/bin/install.js" | node
 
 var path = require('path');
 var fs = require('fs');
@@ -15,9 +15,9 @@ var installer_version = '1.5';
 var base_dir = '/opt/cronicle';
 var log_dir = base_dir + '/logs';
 var log_file = '';
-var gh_repo_url = 'http://github.com/jhuckaby/Cronicle';
-var gh_releases_url = 'https://api.github.com/repos/jhuckaby/Cronicle/releases';
-var gh_head_tarball_url = 'https://github.com/jhuckaby/Cronicle/archive/master.tar.gz';
+var gh_repo_url = 'http://github.com/tbmreza/Cronicle';
+var gh_releases_url = 'https://api.github.com/repos/tbmreza/Cronicle/releases';
+var gh_head_tarball_url = 'https://github.com/tbmreza/Cronicle/archive/master.tar.gz';
 
 // don't allow npm to delete these (ugh)
 var packages_to_check = ['couchbase', 'redis', 'ioredis', 'ioredis-timeout', 'sqlite3'];
